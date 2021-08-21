@@ -5,7 +5,8 @@
   "license": "MIT",
   "devDependencies": {
     "@fitbit/sdk": "~6.0.1",
-    "@fitbit/sdk-cli": "^1.7.3"
+    "@fitbit/sdk-cli": "^1.7.3",
+    "fitbit-sdk-types": "^7.0.0"
   },
   "fitbit": {
     "appUUID": "8fabe1bd-78b6-4176-ab41-f863a27b27cd",
