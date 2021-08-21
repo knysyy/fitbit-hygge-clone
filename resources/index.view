@@ -9,7 +9,8 @@
   </defs>
 
   <g transform="translate(50%, 50%)">
-    <g transform="rotate(0)">
+    <!-- Hour Hand -->
+    <g id="hourHand">
       <g transform="translate(0, -130)">
         <g transform="rotate(45)">
           <rect x="0" y="0" width="20" height="20" fill="orange" />
@@ -18,7 +19,8 @@
     </g>
     <circle r="120" fill="orange" />
 
-    <g transform="rotate(0)">
+    <!-- Minute Hand -->
+    <g id="minuteHand">
       <g transform="translate(0, -110)">
         <g transform="rotate(45)">
           <rect x="0" y="0" width="20" height="20" fill="black" />
