@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="black">
+  <defs>
+    <symbol id="lines">
+      <line y1="-160" y2="-150" stroke-width="3" />
+      <line x1="160" x2="150" stroke-width="3" />
+      <line y1="160" y2="150" stroke-width="3" />
+      <line x1="-160" x2="-150" stroke-width="3" />
+    </symbol>
+  </defs>
+
+  <g transform="translate(50%, 50%)">
+    <g transform="rotate(0)">
+      <g transform="translate(0, -130)">
+        <g transform="rotate(45)">
+          <rect x="0" y="0" width="20" height="20" fill="orange" />
+        </g>
+      </g>
+    </g>
+    <circle r="120" fill="orange" />
+
+    <g transform="rotate(0)">
+      <g transform="translate(0, -110)">
+        <g transform="rotate(45)">
+          <rect x="0" y="0" width="20" height="20" fill="black" />
+        </g>
+      </g>
+    </g>
+    <circle r="100" fill="black" />
+
+    <g fill="white">
+      <line y1="-160" y2="-135" stroke-width="3" />
+      <line x1="160" x2="135" stroke-width="3" />
+      <line y1="160" y2="135" stroke-width="3" />
+      <line x1="-160" x2="-135" stroke-width="3" />
+
+      <g transform="rotate(30)">
+        <use href="#lines" />
+      </g>
+      <g transform="rotate(60)">
+        <use href="#lines" />
+      </g>
+    </g>
+  </g>
+</svg>

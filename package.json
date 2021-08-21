@@ -1,0 +1,27 @@
+{
+  "name": "fitbit-hygge-clone",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "devDependencies": {
+    "@fitbit/sdk": "~6.0.1",
+    "@fitbit/sdk-cli": "^1.7.3"
+  },
+  "fitbit": {
+    "appUUID": "8fabe1bd-78b6-4176-ab41-f863a27b27cd",
+    "appType": "clockface",
+    "appDisplayName": "Fitbit HYGGE clone",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#ffffff",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "vulcan"
+    ],
+    "i18n": {},
+    "defaultLanguage": "ja-JP"
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit"
+  }
+}
